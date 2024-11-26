@@ -1,4 +1,5 @@
 exports._check = () => {
+  
   if (typeof x !== 'number') {
     throw new TypeError(`${x} is not a number`);
   }
